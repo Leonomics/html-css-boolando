@@ -55,6 +55,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
+    justify-content: center;
 }
 
 .card   {
@@ -96,6 +97,31 @@ a {
     background-image: url(../img/6.webp);
 }
 
+/*HOVER CARDS*/
+.card1:hover  {
+    background-image: url(../img/1b.webp);
+}
+
+.card2:hover  {
+    background-image: url(../img/2b.webp);
+}
+
+.card3:hover  {
+    background-image: url(../img/3b.webp);
+}
+
+.card4:hover  {
+    background-image: url(../img/4b.webp);
+}
+
+.card5:hover  {
+    background-image: url(../img/5b.webp);
+}
+
+.card6:hover  {
+    background-image: url(../img/6b.webp);
+}
+
 .prices {
     display: flex;
 
@@ -109,3 +135,34 @@ a {
 
 
  /*FOOTER*/
+
+ footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .icon  {
+    width: fit-content;
+    height: fit-content;
+    color: black;
+ }
+
+ .icon a{
+    width: fit-content;
+    height: fit-content;
+ }
+
+ .instagram     {
+    font-size: 50px;
+    color: black;
+ }
+
+.lista-icone-social {
+    display: flex;
+    
+}
+
+.legal-links    {
+    display: flex;
+}
