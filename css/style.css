@@ -1,0 +1,43 @@
+/*RESET RULE*/
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+
+ /*HEADER*/
+header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo img    {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+ /*ROW*/
+
+
+
+
+
+
+ /*FOOTER*/
